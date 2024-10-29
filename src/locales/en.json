@@ -1,0 +1,14 @@
+{
+    "title": "Latest News",
+    "search_placeholder": "Search articles...",
+    "loading": "Loading...",
+    "no_articles": "No articles available.",
+    "error": "Failed to fetch news articles. Please try again later.",
+    "voice_search_alert": "Voice recognition started. Please speak.",
+    "no_description": "No description available.",
+    "read_more": "Read More",
+    "share_email": "Share via Email",
+    "published_on": "Published",
+    "at": "at"
+  }
+  

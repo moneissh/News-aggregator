@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Header Styles */
+.header1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #283593; /* Dark blue background */
+    color: white; /* White text */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+/* Title Styles */
+.home-title1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px; /* Space below the title */
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Search Bar Styles */
+.search-bar1 {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between label and select */
+}
+
+/* Label Styles */
+.country-label {
+    font-size: 1.2rem; /* Larger label font size */
+    font-weight: 500; /* Medium weight */
+}
+
+/* Select Styles */
+.search-input1 {
+    padding: 10px 15px; /* Padding for the select */
+    font-size: 1rem; /* Font size for the select */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ffffff; /* White background */
+    color: #f60909; /* Dark text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s; /* Transition for hover effect */
+}
+
+/* Select Hover Effect */
+.search-input1:hover {
+    border: 1px solid #e94560; /* Highlight border on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Shadow on hover */
+}
+
+/* Select Focus Effect */
+.search-input1:focus {
+    outline: none; /* Remove default outline */
+    border: 1px solid #e94560; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(233, 69, 96, 0.5); /* Glow effect */
+}
+
+/* Articles Container */
+.articles-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Articles Grid */
+.articles-grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Space between articles */
+    width: 100%; /* Full width */
+    padding: 0 20px; /* Side padding */
+}
+
+/* Article Card Styles */
+.article-card1 {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    overflow: hidden; /* Prevent overflow */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.article-card1:hover {
+    transform: scale(1.02); /* Scale effect on hover */
+}
+
+/* Image Styles */
+.article-image1 {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Content Styles */
+.article-content1 {
+    padding: 15px;
+    text-align: center; /* Center align content */
+}
+
+/* Title Styles */
+.article-title1 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+/* Date Styles */
+.article-date1 {
+    font-size: 0.9em;
+    color: #888;
+    margin: 5px 0;
+}
+
+/* Description Styles */
+.article-description1 {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Read More Link Styles */
+.read-more1 {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff; /* Primary color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition */
+    text-align: center; /* Center align button */
+}
+
+.read-more1:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Loading Message */
+.loading-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #e90606;
+}
+
+/* Error Message */
+.error-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #e94560; /* Red color for errors */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .articles-grid1 {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .articles-grid1 {
+        grid-template-columns: 1fr; /* One column on small screens */
+    }
+}

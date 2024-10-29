@@ -1,0 +1,62 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space out left and right sections */
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative; /* Relative positioning for centered items */
+}
+
+/* Logo on the left */
+.navbar-left {
+  flex: 1; /* Take up space to align center items */
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Center links */
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  margin: 0;
+}
+
+/* Center links styles */
+.navbar-center a {
+  color: white;
+  text-decoration: none; /* No underline */
+  font-weight: bold;
+}
+
+.navbar-center a:hover,
+.navbar-center a:focus,
+.navbar-center a:active {
+  text-decoration: none; /* No underline on hover, focus, or active */
+}
+
+/* Right-side links (optional) */
+.navbar-right {
+  flex: 1; /* Take up space to align center items */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-right a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 20px; /* Space between right-side links */
+}

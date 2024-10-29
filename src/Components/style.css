@@ -1,0 +1,100 @@
+/* Signup.css */
+
+/* Common Body Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Use a clean and modern font */
+  background-color: #f4f4f4; /* Light background color for the body */
+}
+
+/* Signup Page Styles */
+.signup-page {
+  display: flex; /* Use flexbox to align children horizontally */
+  height: 100vh; /* Full height of the viewport */
+  width: 100vw; /* Full width of the viewport */
+}
+
+.form-side {
+  flex: 1; /* Takes up space on the left side */
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center vertically */
+  padding: 40px; /* Padding for the form */
+}
+
+.signup-box {
+  width: 100%; /* Make the container responsive */
+  max-width: 400px; /* Max width for the container */
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  border-radius: 20px; /* Rounded corners for the form side */
+  box-shadow: 0 4px 20px rgba(233, 8, 8, 0.1); /* Softer shadow for depth */
+  padding: 40px; /* Padding for form */
+  text-align: center; /* Center the content */
+}
+
+/* Logo Styles */
+.signup-logo {
+  max-width: 150px; /* Adjust the size as necessary */
+  margin: 20px 0; /* Top and bottom margin to bring the image down */
+}
+
+/* Input Group */
+.form-group {
+  margin-bottom: 20px; /* Space between input groups */
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 8px; /* More space below labels for better separation */
+}
+
+/* Input Fields */
+input {
+  width: 100%; /* Full-width inputs */
+  padding: 12px; /* Increased padding for better touch targets */
+  border: 1px solid #ddd; /* Default border color */
+  border-radius: 20px; /* Match the signup input styling */
+  font-size: 1rem;
+  background-color: #eaeaea; /* Change the background color */
+  color: #333; /* Change the text color */
+}
+
+/* Button Styles */
+.submit-button {
+  width: 100%;
+  padding: 12px; /* Increased padding for better touch targets */
+  background-color: #e94560; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 20px; /* Match the signup button styling */
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Margin for spacing */
+}
+
+.submit-button:hover {
+  background-color: #c0392b; /* Darker shade on hover */
+}
+
+/* Message Styles */
+.message {
+  margin-top: 20px;
+  color: #e94560; /* Color for error/success message */
+  font-weight: bold;
+}
+
+/* Image Side Styles */
+.image-side {
+  flex: 1; /* Takes up space on the right side */
+  display: flex; /* Enable flexbox for centering */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Background Image */
+.background-image {
+  max-width: 100%; /* Ensure it fits the container */
+  height: auto; /* Maintain aspect ratio */
+}

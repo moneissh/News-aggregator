@@ -1,0 +1,116 @@
+/* TamilNews.css */
+.tamil-news-page1 {
+  padding: 60px 80px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7faff; /* Soft background color */
+  color: #2c3e50; /* Dark text for readability */
+}
+
+.tamil-news-page1 h1 {
+  text-align: center;
+  color: #1e90ff; /* Title color */
+  font-size: 42px; /* Title font size */
+  margin-bottom: 30px; /* Space below title */
+  text-transform: capitalize; /* Capitalize title */
+  letter-spacing: 1.2px; /* Spacing between letters */
+}
+
+/* Search Form */
+.search-form1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px; /* Space below search form */
+}
+
+.search-input1 {
+  padding: 12px; /* Padding for input */
+  font-size: 17px; /* Font size for input */
+  width: 250px; /* Width for search box */
+  border: 2px solid #1e90ff; /* Border color for input */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Shadow effect */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.search-input1:focus {
+  border-color: #3498db; /* Focus border color */
+  outline: none; /* Remove default outline */
+  background-color: #eef7fc; /* Light background on focus */
+}
+
+.search-button1 {
+  padding: 12px 25px; /* Padding for button */
+  margin-left: 8px; /* Space between input and button */
+  font-size: 17px; /* Font size for button */
+  background-color: #34495e; /* Dark button background */
+  color: white; /* White text for contrast */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 10px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effects */
+}
+
+.search-button1:hover {
+  background-color: #2c3e50; /* Darker gray on hover */
+  transform: translateY(-3px); /* Lift effect */
+}
+
+/* Articles */
+.articles-container1 {
+  display: grid; /* Use grid for layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 30px; /* Space between articles */
+  padding: 0 80px; /* Padding for container */
+}
+
+.article-card1 {
+  background-color: #ffffff; /* White background for articles */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  padding: 20px; /* Padding for card */
+  text-align: left; /* Left text alignment */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition effects */
+}
+
+.article-card1:hover {
+  transform: translateY(-8px); /* Lift effect on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.article-card1 img {
+  width: 100%; /* Full width for images */
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Cover image without distortion */
+  border-radius: 10px; /* Rounded corners for images */
+  margin-bottom: 15px; /* Space below image */
+}
+
+.article-card1 h2 {
+  font-size: 20px; /* Headline font size */
+  margin-bottom: 12px; /* Space below headline */
+  color: #34495e; /* Headline color */
+  font-weight: bold; /* Bold headline */
+}
+
+.article-card1 p {
+  font-size: 15px; /* Paragraph font size */
+  color: #7f8c8d; /* Gray color for text */
+  margin-bottom: 15px; /* Space below paragraph */
+}
+
+.article-card1 a {
+  display: inline-block; /* Make link block */
+  font-size: 15px; /* Button font size */
+  color: #ffffff; /* White text */
+  background-color: #1e90ff; /* Button background */
+  padding: 10px 20px; /* Padding for button */
+  text-decoration: none; /* Remove underline */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transition effects */
+}
+
+.article-card1 a:hover {
+  background-color: #3498db; /* Lighter blue on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
